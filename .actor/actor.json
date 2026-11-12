@@ -1,0 +1,10 @@
+{
+    "actorSpecification": 1,
+    "name": "store-gap-finder",
+    "title": "Store Gap Finder",
+    "description": "Ranks e-commerce shops by how well the Apify Store serves them, and checks whether the E-commerce Scraping Tool supports each shop.",
+    "version": "0.1",
+    "buildTag": "latest",
+    "input": "./input_schema.json",
+    "dockerfile": "./Dockerfile"
+}
