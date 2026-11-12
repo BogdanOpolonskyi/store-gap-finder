@@ -15,6 +15,7 @@
             "title": "Max Actors to read per shop",
             "type": "integer",
             "description": "How many Store listings to read for each shop, most popular first. A higher number is more complete for big shops like Amazon.",
+            "editor": "number",
             "default": 50,
             "minimum": 5,
             "maximum": 200
@@ -23,6 +24,7 @@
             "title": "Store category",
             "type": "string",
             "description": "Apify Store category to search in. ECOMMERCE is the default. Note: the ECST coverage check only makes sense for ECOMMERCE.",
+            "editor": "textfield",
             "default": "ECOMMERCE"
         }
     },
